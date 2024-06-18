@@ -28,7 +28,7 @@
 <details open="open">
 <summary>Table of Contents</summary>
 
-- [About](#about)
+- [Quick Start](#quick-start)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
