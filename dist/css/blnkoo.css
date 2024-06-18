@@ -126,3 +126,27 @@
   --border-radius-pill: 50rem;
   --font-family: "Poppins", sans-serif;
 }
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body, html{
+  margin: auto;
+  width: 100%;
+  font-weight: 400;
+  height: 0 auto;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: var(--font-family);
+  letter-spacing: .01em;
+}
