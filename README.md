@@ -38,11 +38,8 @@
 ## Quick Start
 Several quick start options are available:
 - [Download the lastest release](Download the latest release)
-- Clone the repo: ```git clone https://github.com/twbs/bootstrap.git```
-- Install with npm: ```npm install bootstrap@v5.3.3```
-- Install with yarn: ```yarn add bootstrap@v5.3.3```
-- Install with Composer: ```composer require twbs/bootstrap:5.3.3```
-- Install with NuGet: ```CSS: Install-Package bootstrap Sass: Install-Package bootstrap.sass```
+- Clone the repo: ```git clone https://github.com/twbs/blnkoo.git```
+- Install with Composer: ```composer require aakki16/blnkoo```
 - Read the [Getting started]() page for information on the framework contents, templates, examples, and more.
 
 
