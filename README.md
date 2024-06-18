@@ -4,10 +4,8 @@
   </a>
 </h1>
 
-# Blnkoo
-
 <div align="center">
-  Amazing GitHub Template - Sane defaults for your next project!
+  Bknkoo - Sleek, intuitive, and powerful front-end framework for faster and easier web development.
   <br />
   <br />
   <a href="https://github.com/aakki16/Blnkoo/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
