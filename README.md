@@ -43,3 +43,9 @@
 - [Acknowledgements](#acknowledgements)
 
 </details>
+
+
+## License
+
+This project is licensed under the **MIT license**. Feel free to edit and distribute this template as you like.
+See [LICENSE](LICENSE) for more information.
