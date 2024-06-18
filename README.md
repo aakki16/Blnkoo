@@ -26,3 +26,22 @@
 [![Develop by Akki Team](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-Akki&nbsp;Team-ff1414.svg?style=flat-square)](https://github.com/Blnkoo)
 
 </div>
+
+<details open="open">
+<summary>Table of Contents</summary>
+
+- [About](#about)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+    - [Cookiecutter template](#cookiecutter-template)
+    - [Manual setup](#manual-setup)
+    - [Variables reference](#variables-reference)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Support](#support)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+</details>
