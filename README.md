@@ -52,7 +52,7 @@ Several quick start options are available:
 - Install with yarn: ```yarn add bootstrap@v5.3.3```
 - Install with Composer: ```composer require twbs/bootstrap:5.3.3```
 - Install with NuGet: ```CSS: Install-Package bootstrap Sass: Install-Package bootstrap.sass```
-Read the Getting started page for information on the framework contents, templates, examples, and more.
+- Read the [Getting started]() page for information on the framework contents, templates, examples, and more.
 
 
 ## License
