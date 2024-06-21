@@ -3205,6 +3205,48 @@ progress{
   -o-border-radius: 5rem;
 }
 
+/** Avatar **/
+.avatar{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.avatar.avatar-square{
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.avatar.avatar-xs{
+  height: 2rem;
+  width: 2rem;
+}
+.avatar.avatar-sm{
+  height: 3rem;
+  width: 3rem;
+}
+.avatar.avatar-md{
+  height: 4rem;
+  width: 4rem;
+}
+.avatar.avatar-lg{
+  height: 5rem;
+  width: 5rem;
+}
+.avatar.avatar-xl{
+  height: 6rem;
+  width: 6rem;
+}
+
 /** Alert **/
 .alert{
   --alert-bg: transparent;
