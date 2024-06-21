@@ -3144,3 +3144,39 @@ progress{
 .pl-5{
   padding-left: 3rem !important;
 }
+
+/** Badge **/
+.badge{
+  display: inline-block;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--white);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: var(0.375rem);
+  border: 1px solid red;
+}
+.badge:empty{
+  display: none;
+}
+.btn .badge{
+  position: relative;
+  top: -1px;
+}
+.badge-circle{
+  border-radius: 50% !important;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.badge-pill{
+  border-radius: 5rem !important;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+}
