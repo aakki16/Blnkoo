@@ -3807,6 +3807,55 @@ progress{
   -o-border-radius: 5rem;
 }
 
+/** Tags **/
+.tag{
+  display: inline-block;
+  text-transform: uppercase;
+  color: var(--gray);
+  padding: 0.5rem;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  border: 1px solid var(--secondary);
+  border-radius: 3px;
+}
+.tag.tag-primary{
+  border: 1px solid var(--primary);
+}
+.tag.tag-success{
+  border: 1px solid var(--success);
+}
+.tag.tag-info{
+  border: 1px solid var(--info);
+}
+.tag.tag-teal{
+  border: 1px solid var(--teal);
+}
+.tag.tag-danger{
+  border: 1px solid var(--danger);
+}
+.tag.tag-warning{
+  border: 1px solid var(--warning);
+}
+.tag.tag-sm{
+  padding: 0.4rem;
+  font-size: 0.75em;
+}
+.tag.tag-lg{
+  padding: 0.7rem;
+  font-size: 1.125em;
+}
+.tag.tag-xl{
+  padding: 0.9rem 1rem;
+  font-size: 1.130em;
+}
+.tag.tag-xxl{
+  padding: 1rem 1.3rem;
+  font-size: 1.135em;
+}
+.tag+.tag{
+  margin-left: 1rem;
+}
+
 /** Avatar **/
 .avatar{
   border-radius: 50%;
