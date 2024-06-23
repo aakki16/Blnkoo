@@ -4050,3 +4050,38 @@ progress{
   padding-left: 0;
   border-radius: 0;
 }
+
+/** Notes **/
+.note{
+  background-color: var(--gray-300);
+  border-left: 6px solid #000000;
+  padding: 0.5rem 2rem;
+}
+.note.note-primary{
+  background-color: var(--blue-200);
+  border-left: 6px solid var(--primary);
+}
+.note.note-success{
+  background-color: var(--green-200);
+  border-left: 6px solid var(--success);
+}
+.note.note-info{
+  background-color: var(--cyan-200);
+  border-left: 6px solid var(--info);
+}
+.note.note-warning{
+  background-color: var(--yellow-200);
+  border-left: 6px solid var(--warning);
+}
+.note.note-danger{
+  background-color: var(--red-200);
+  border-left: 6px solid var(--danger);
+}
+.note.note-teal{
+  background-color: var(--teal-200);
+  border-left: 6px solid var(--teal);
+}
+.note.note-pink{
+  background-color: var(--pink-200);
+  border-left: 6px solid var(--pink);
+}
