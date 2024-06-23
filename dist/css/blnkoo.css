@@ -3252,7 +3252,7 @@ progress{
   --alert-bg: transparent;
   --alert-color: inherit;
   --alert-border-color: transparent;
-  --alert-border: 1px solid var(--alert-border-color);
+  --alert-border: 1px solid var(--border-color);
   --alert-link-color: inherit;
   position: relative;
   padding: 1rem 1rem;
@@ -3272,7 +3272,7 @@ progress{
 .alert-dismissible{
   padding-right: 3rem;
 }
-.alert-dismissible .alert-close{
+.alert-dismissible .btn-dismiss{
   position: absolute;
   top: -0.3rem;
   right: 0;
@@ -3309,7 +3309,7 @@ progress{
   --alert-border-color: var(--warning-border-subtle);
   --alert-link-color: var(--warning-text-emphasis);
 }
-.alert.alert-danger {
+.alert.alert-danger{
   --alert-color: var(--danger-text-emphasis);
   --alert-bg: var(--danger-bg-subtle);
   --alert-border-color: var(--danger-border-subtle);
