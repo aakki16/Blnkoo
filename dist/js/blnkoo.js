@@ -5,15 +5,26 @@
 */
 
 /** Alert **/
-document.addEventListener('DOMContentLoaded', function(){
-  var closeButtons = document.querySelectorAll('.alert-close');
-    closeButtons.forEach(function(button) {
+function alertdismiss(){
+  var btndismiss = document.querySelectorAll('[data-dismiss]');
+    btndismiss.forEach(function(button){
       button.addEventListener('click', function() {
-        var alert = this.parentElement;
-        alert.style.opacity = '0';
-        setTimeout(function() {
-          alert.style.display = 'none';
-        }, 300);
+      var targetId = button.getAttribute('data-dismiss');
+      var targetElement = document.getElementById(targetId);
+        if(targetElement){
+          targetElement.style.display = 'none';
+        }
       });
     });
-});
+  }
+  function setupAlertDismiss(buttonId, elementId){
+    var button = document.getElementById(buttonId);
+    if(button){
+      button.setAttribute('data-dismiss', elementId);
+    }
+    alertdismiss();
+  }
+
+// Set up the Alert Dismiss Button
+setupAlertDismiss('alert-btn-dismiss', 'alert-dismiss');
+    
