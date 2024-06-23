@@ -4363,3 +4363,42 @@ progress{
 .progress.progress-pink{
   background-color: var(--pink);
 }
+
+/** Blockquote **/
+blockquote,
+.blockquote{
+  font-size: 0.975rem;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  margin-left: 3.599rem;
+  padding-left: 1rem;
+  border-left: 5px solid var(--gray-300);
+}
+blockquote,
+.blockquote.blockquote-primary{
+border-left: 5px solid var(--primary) !important;
+}
+blockquote,
+.blockquote.blockquote-info{
+border-left: 5px solid var(--info) !important;
+}
+blockquote,
+.blockquote.blockquote-success{
+border-left: 5px solid var(--success) !important;
+}
+blockquote,
+.blockquote.blockquote-teal{
+border-left: 5px solid var(--teal) !important;
+}
+blockquote,
+.blockquote.blockquote-pink{
+border-left: 5px solid var(--pink) !important;
+}
+blockquote,
+.blockquote.blockquote-warning{
+border-left: 5px solid var(--warning) !important;
+}
+blockquote,
+.blockquote.blockquote-danger{
+border-left: 5px solid var(--danger) !important;
+}
