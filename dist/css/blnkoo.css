@@ -4325,3 +4325,41 @@ progress{
     height: 3rem;
   }
 }
+
+/** Progress **/
+.progress{
+  height: 1.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: .25rem;
+}
+.progress.progress-stripped{
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+}
+.progress-container{
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: .25rem;
+  overflow: hidden;
+}
+.progress.progress-primary{
+  background-color: var(--primary);
+}
+.progress.progress-success{
+  background-color: var(--success);
+}
+.progress.progress-teal{
+  background-color: var(--teal);
+}
+.progress.progress-info{
+  background-color: var(--info);
+}
+.progress.progress-danger{
+  background-color: var(--danger);
+}
+.progress.progress-warning{
+  background-color: var(--warning);
+}
+.progress.progress-pink{
+  background-color: var(--pink);
+}
