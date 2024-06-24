@@ -4403,6 +4403,41 @@ blockquote,
 border-left: 5px solid var(--danger) !important;
 }
 
+/* Panel */
+.panel{
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 4px007bff
+  background-color: var(--white);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.panel .panel-heading{
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.panel .panel-heading.active{
+  color: var(--white);
+  background-color: var(--primary);
+}
+.panel .panel-body{
+  padding: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+.panel .panel-footer{
+  padding: 0.899rem 1rem;
+  background-color: #f7f7f7;
+  border-top: 1px solid var(--border-color);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  font-size: 0.875rem;
+  color: #777;
+}
+
 /** Utilities **/
 .appearance-none{
   -webkit-appearance: none !important;
