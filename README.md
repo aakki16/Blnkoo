@@ -8,7 +8,7 @@
   Blnkoo - Sleek, intuitive, and powerful front-end framework for faster and easier web development.
   <br />
   <br />
-  <a href="https://github.com/aakki16/Blnkoo/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  <a href="https://github.com/aakki16/Blnkoo/issues/new?assignees=&labels=bug&template=BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
   ·
   <a href="https://github.com/aakki16/Blnkoo/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
   .
