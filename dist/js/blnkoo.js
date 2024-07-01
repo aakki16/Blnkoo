@@ -4,8 +4,28 @@
  * Licensed under MIT (https://github.com/aakki16/blnkoo/LICENSE)
 */
 
+/** Modal Function **/
+export function modal(e){
+  document.addEventListener('DOMContentLoaded', () => {
+    const openModalBtn = document.getElementById('open-modal');
+    const closeModalBtn = document.getElementById('close-modal');
+    const modalOverlay = document.getElementById('modal-overlay');
+    openModalBtn.addEventListener('click', () => {
+      modalOverlay.classList.add('show');
+    });
+    closeModalBtn.addEventListener('click', () => {
+      modalOverlay.classList.remove('show');
+    });
+    window.addEventListener('click', (e) => {
+      if (e.target === modalOverlay) {
+        modalOverlay.classList.remove('show');
+      }
+    });
+  });
+}
+
 /** Alert **/
-function alertdismiss(){
+/*function alertdismiss(){
   var btndismiss = document.querySelectorAll('[data-dismiss]');
     btndismiss.forEach(function(button){
       button.addEventListener('click', function() {
@@ -26,5 +46,4 @@ function alertdismiss(){
   }
 
 // Set up the Alert Dismiss Button
-setupAlertDismiss('alert-btn-dismiss', 'alert-dismiss');
-    
+setupAlertDismiss('alert-btn-dismiss', 'alert-dismiss');*/
