@@ -5,9 +5,7 @@
 */
 
 /** Copy Js **/
-(function (){
-  'use strict';
-  
+const Clipboard = (() => {
   var txtBtnClass = 'text-to-copy';
   var btnClassName = 'copy-btn';
   var allowingButtonTextToChange = true;
@@ -136,6 +134,7 @@
     } catch (ignore) {}
   });
 })();
+export default Clipboard;
 
 /** Modal Function **/
 export function modal(e){
