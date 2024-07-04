@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Meta Data -->
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="Akki Team">
+  <meta name="copyright" content="&copy; 2024 Akki Team. All right reversed.">
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#1AA179">
+  <title>Blnkoo - Getting Started</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="../assets/img/logo/favicon.svg">
+  <!-- Css -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<!-- Sidebar -->
+<div class="overlay-sidebar" id="myNav">
+  <header>
+    <div class="flex justify-between self-center w-100-pcent py-3 border border-left-0 border-top-0 border-right-0 border2">
+      <div class="container flex justify-between self-center">
+        <div class="flex self-center">
+          <img src="../assets/img/logo/logo.svg">
+        </div>
+        <div class="flex justify-center self-center">
+          <div onclick="window.location.href=''" class="border flex self-center rounded bg-gray-100 py-1 px-1 mr-2">
+            <img src="../assets/img/icons/github.svg">
+          </div>
+          <div onclick="closeNav()" class="border flex self-center rounded bg-gray-100 py-1 px-1 show">
+            <img src="../assets/img/icons/close.svg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="px-3 mt-4">
+    <div class="">
+      <a href="!#" class="text-cyan fw-500 underline">Getting Started</a>
+    </div>
+    <div class="mt-3">
+      <a href="elements.html" class="text-cyan fw-500 underline">Elements</a>
+    </div>
+    <div class="mt-3">
+      <a href="!#" class="text-cyan fw-500 underline">Layouts</a>
+    </div>
+    <div class="mt-3">
+      <a href="!#" class="text-cyan fw-500 underline">Components</a>
+    </div>
+    <div class="mt-3">
+      <a href="!#" class="text-cyan fw-500 underline">Utilities</a>
+    </div>
+    <div class="mt-3">
+      <a href="!#" class="text-cyan fw-500 underline">Themes</a>
+    </div>
+  </div>
+</div>
+<!--* Sidebar -->
+<!-- Header -->
+<header>
+  <div class="flex justify-between self-center w-100-pcent py-3 border border-left-0 border-top-0 border-right-0 border2">
+    <div class="container flex justify-between self-center">
+      <div class="flex self-center">
+        <div class="border flex self-center rounded bg-gray-100 py-1 px-1 mr-2 show">
+          <img onclick="openNav()" src="../assets/img/icons/three-line.svg">
+        </div>
+        <img src="../assets/img/logo/logo.svg">
+      </div>
+      <div class="flex justify-center self-center">
+        <span class="flex self-center border rounded-pill px-2 py-1 fs-2 fw-500">v1.0.0</span>
+        <div onclick="window.location.href=''" class="border flex self-center rounded bg-gray-100 py-1 px-1 ml-2">
+          <img src="../assets/img/icons/github.svg">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!--* Header -->
+<!-- Content Area -->
+<div class="flex-1 max-w-3xl mx-auto w-full">
+  <div class="container mx-auto px-3 py-10">
+    <h1 class="text-4xl font-bold text-gray-800">Getting Started</h1>
+    <div class="mt-4 prose prose-violet prose-a:text-violet-500 max-w-none prose-pre:bg-slate-100 prose-pre:text-slate-700 prose-headings:scroll-m-20">
+      <p>Blnkoo is a powerful, feature-packed frontend toolkit. Build anything—from prototype to production—in minutes.</p>
+      <div class="grid gap-5 md:grid-cols-2 mt-5">
+        <div class="flex gap-3 items-start flex-col  border p-6 rounded-lg border-slate-200">
+          <div class="flex flex-col">
+            <span class="font-semibold text-xl">Installation</span>
+            <span class="mt-1 text-gray-500">How to install and use blnkoo. </span>
+          </div>
+          <a href="./getting-started/installing.html" class="text-violet-500 hover:text-violet-600 text-sm" rel="noopener ">See Guide</a>
+        </div>
+        <div class="flex gap-3 items-start flex-col  border p-6 rounded-lg border-slate-200">
+          <div class="flex flex-col">
+            <span class="font-semibold text-xl">Browser Support</span>
+            <span class="mt-1 text-gray-500"> Browser compatibility and support. </span>
+          </div>
+          <a href="getting-started/browser-support.html" class="text-violet-500 hover:text-violet-600 text-sm" rel="noopener ">See Page</a>
+        </div>
+        <div class="flex gap-3 items-start flex-col  border p-6 rounded-lg border-slate-200">
+          <div class="flex flex-col">
+            <span class="font-semibold text-xl">What's new in blnkoo</span>
+            <span class="mt-1 text-gray-500"> Changelog and release notes </span>
+          </div>
+          <a href="getting-started/what-is-new.html" class="text-violet-500 hover:text-violet-600 text-sm" rel="noopener ">See Page</a>
+        </div>
+      </div>
+      <!-- Prev/Next -->
+      <div class="flex flex-col sm:flex-row justify-between border-t mt-10 py-5">
+        <div></div>
+        <div>
+          <a class="flex flex-col items-end" href="getting-started/installing.html"> 
+            <span class="text-sm text-slate-400">Next</span>
+            <span class="text-violet-500">Installing</span>
+          </a>
+        </div>
+      </div>
+      <!--* Prev/Next -->
+    </div>
+  </div>
+</div>
+<!--* Content Area -->
+<!-- Footer -->
+<div class="border-t">
+  <footer>
+    <div class="flex flex-col md:flex-row gap-3 items-center justify-between py-10 max-w-screen-lg mx-auto text-sm px-3 text-gray-500">
+      <p>&copy; 2024 <a href="!#" target="_blank" rel="noopener">Akki Team</a>. All rights reserved
+      </p>
+      <nav class="flex gap-5">
+        <a href="http://" target="_blank" rel="noopener noreferrer">Terms</a>
+        <a href="http://" target="_blank" rel="noopener noreferrer">License</a><a href="http://" target="_blank" rel="noopener noreferrer">FAQ</a>
+      </nav>
+    </div>
+    <a href="#" target="_blank" rel="noopener" class="fixed flex px-3 py-1 space-x-2 text-sm font-semibold text-gray-900 bg-white border border-gray-300 rounded shadow-sm place-items-center right-5 bottom-5">
+      <span>Donate ❣</span>
+    </a>
+  </footer>
+</div>
+<!--* Footer -->
+<!-- Js -->
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
