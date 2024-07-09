@@ -1,0 +1,39 @@
+@import url('./res.css');
+@import url('./pes.css');
+
+/** canvas **/
+.off-canvas{
+  width: 100%;
+  height: 100vh;
+  background: #e7f5ff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translateX(100%);
+  transition: all 0.5s linear;
+  visibility: hidden;
+  pointer-events: none;
+  overflow-x: hidden;
+}
+.active{
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.overlay-sidebar{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #e7f5ff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+/** Some Helper Classes **/
+.underline{
+  text-decoration: underline;
+}
