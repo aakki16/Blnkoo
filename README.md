@@ -38,7 +38,7 @@
 ## Quick Start
 Several quick start options are available:
 - [Download the lastest release](Download the latest release)
-- Clone the repo: ```git clone https://github.com/twbs/blnkoo.git```
+- Clone the repo: ```git clone https://github.com/aakki16/blnkoo.git```
 - Install with Composer: ```composer require aakki16/blnkoo```
 - Read the [Getting started]() page for information on the framework contents, templates, examples, and more.
 
